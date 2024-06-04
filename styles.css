@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color1:#52baa7 ;
+    --color2:  #718f85 ;
+    --color3:  #ba5252 ;
+    --color4: #fc0f52 ;
+    --color5:  #fc3d73 ; 
+}
+body{
+    background:linear-gradient(45deg, var(--color5),var(--color4), var(--color3), var(--color2), var(--color1));
+}
+
+.container{
+    margin:0 auto;
+    width: 700px;
+    display: grid;
+    grid-template: minmax(400px);
+}
